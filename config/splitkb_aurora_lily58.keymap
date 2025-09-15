@@ -41,6 +41,22 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        sys_layer {
+            bindings = <&to 3>;
+            key-positions = <52 55>;
+            layers = <0>;
+        };
+
+        default_layer {
+            bindings = <&to 0>;
+            key-positions = <52 55>;
+            layers = <3>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -57,7 +73,7 @@
 &kp TAB    &kp DE_Q                 &kp DE_W                 &kp DE_E                   &kp DE_R              &kp DE_T                          &kp DE_Z   &kp DE_U               &kp DE_I                     &kp DE_O                   &kp DE_P                   &kp DE_PLUS
 &kp LCTRL  &HRM_Left DE_A LEFT_GUI  &HRM_Left DE_S LEFT_ALT  &HRM_Left DE_D LEFT_SHIFT  &HRM_Left DE_F LCTRL  &kp DE_G                          &kp DE_H   &HRM_Right DE_J RCTRL  &HRM_Right DE_K RIGHT_SHIFT  &HRM_Right DE_L RIGHT_ALT  &HRM_Right SEMI RIGHT_GUI  &kp DE_HASH
 &kp LSHFT  &kp DE_Y                 &kp DE_X                 &kp DE_C                   &kp DE_V              &kp DE_B   &kp LBRC     &kp RBRC  &kp DE_N   &kp DE_M               &kp DE_COMMA                 &kp DE_PERIOD              &kp DE_MINUS               &kp RSHFT
-                                                             &kp LALT                   &kp LGUI              &mo 1      &kp SPACE    &kp RET   &mo 2      &kp BSPC               &kp RGUI
+                                                             &kp LEFT_GUI               &kp BACKSPACE         &mo 1      &kp SPACE    &kp RET   &mo 2      &kp BSPC               &kp RGUI
             >;
         };
 
@@ -92,6 +108,16 @@
 &kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans       &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans
 &kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp BSLH
                            &trans   &trans   &trans   &trans    &trans  &trans       &trans     &trans
+            >;
+        };
+
+        sys {
+            bindings = <
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans             &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans             &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans             &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                    &trans        &ext_power EP_OFF  &trans        &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
