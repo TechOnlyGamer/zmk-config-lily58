@@ -74,10 +74,10 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC           &kp DE_N1                &kp DE_N2                &kp DE_N3                  &kp DE_N4             &kp DE_N5                         &kp DE_N6  &kp DE_N7              &kp DE_N8                    &kp DE_N9                  &kp DE_N0                  &kp DE_SZ
-&kp TAB           &kp DE_Q                 &kp DE_W                 &kp DE_E                   &kp DE_R              &kp DE_T                          &kp DE_Z   &kp DE_U               &kp DE_I                     &kp DE_O                   &kp DE_P                   &kp DE_PLUS
-&kp LCTRL         &HRM_Left DE_A LEFT_GUI  &HRM_Left DE_S LEFT_ALT  &HRM_Left DE_D LEFT_SHIFT  &HRM_Left DE_F LCTRL  &kp DE_G                          &kp DE_H   &HRM_Right DE_J RCTRL  &HRM_Right DE_K RIGHT_SHIFT  &HRM_Right DE_L RIGHT_ALT  &HRM_Right SEMI RIGHT_GUI  &kp DE_HASH
-&kp DE_LESS_THAN  &kp DE_Y                 &kp DE_X                 &kp DE_C                   &kp DE_V              &kp DE_B   &kp LBRC     &kp RBRC  &kp DE_N   &kp DE_M               &kp DE_COMMA                 &kp DE_PERIOD              &kp DE_MINUS               &kp RSHFT
+&kp ESC           &kp DE_N1                &kp DE_N2                &kp DE_N3                  &kp DE_N4             &kp DE_N5                         &kp DE_N6  &kp DE_N7              &kp DE_N8                    &kp DE_N9                  &kp DE_N0                         &kp DE_SZ
+&kp TAB           &kp DE_Q                 &kp DE_W                 &kp DE_E                   &kp DE_R              &kp DE_T                          &kp DE_Z   &kp DE_U               &kp DE_I                     &kp DE_O                   &kp DE_P                          &kp DE_PLUS
+&kp LCTRL         &HRM_Left LEFT_GUI DE_A  &HRM_Left LEFT_ALT DE_S  &HRM_Left LEFT_SHIFT DE_D  &HRM_Left LCTRL DE_F  &kp DE_G                          &kp DE_H   &HRM_Right RCTRL DE_J  &HRM_Right RIGHT_SHIFT DE_K  &HRM_Right RIGHT_ALT DE_L  &HRM_Right RIGHT_GUI DE_O_UMLAUT  &kp DE_HASH
+&kp DE_LESS_THAN  &kp DE_Y                 &kp DE_X                 &kp DE_C                   &kp DE_V              &kp DE_B   &kp LBRC     &kp RBRC  &kp DE_N   &kp DE_M               &kp DE_COMMA                 &kp DE_PERIOD              &kp DE_MINUS                      &kp RSHFT
                                                                     &kp LEFT_GUI               &kp BACKSPACE         &mo 1      &kp SPACE    &kp RET   &mo 2      &kp BSPC               &kp RGUI
             >;
         };
