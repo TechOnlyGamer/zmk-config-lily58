@@ -62,6 +62,21 @@
             bindings = <&kp ESCAPE>;
             key-positions = <25 26 27>;
         };
+
+        a_umlaut {
+            bindings = <&kp DE_A_UMLAUT>;
+            key-positions = <25 14>;
+        };
+
+        u_umlaut {
+            bindings = <&kp DE_U_UMLAUT>;
+            key-positions = <14 19>;
+        };
+
+        o_umlaut {
+            bindings = <&kp DE_O_UMLAUT>;
+            key-positions = <14 21>;
+        };
     };
 
     keymap {
