@@ -65,17 +65,17 @@
 
         a_umlaut {
             bindings = <&kp DE_A_UMLAUT>;
-            key-positions = <25 14>;
+            key-positions = <25 15>;
         };
 
         u_umlaut {
             bindings = <&kp DE_U_UMLAUT>;
-            key-positions = <14 19>;
+            key-positions = <19 15>;
         };
 
         o_umlaut {
             bindings = <&kp DE_O_UMLAUT>;
-            key-positions = <14 21>;
+            key-positions = <21 15>;
         };
     };
 
@@ -95,7 +95,7 @@
 &kp TAB           &kp DE_Q                 &kp DE_W                 &kp DE_E                   &kp DE_R              &kp DE_T                                            &kp DE_Z   &kp DE_U               &kp DE_I                     &kp DE_O                   &kp DE_P                          &kp DE_PLUS
 &kp LCTRL         &HRM_Left LEFT_GUI DE_A  &HRM_Left LEFT_ALT DE_S  &HRM_Left LEFT_SHIFT DE_D  &HRM_Left LCTRL DE_F  &kp DE_G                                            &kp DE_H   &HRM_Right RCTRL DE_J  &HRM_Right RIGHT_SHIFT DE_K  &HRM_Right RIGHT_ALT DE_L  &HRM_Right RIGHT_GUI DE_O_UMLAUT  &kp DE_HASH
 &kp DE_LESS_THAN  &kp DE_Y                 &kp DE_X                 &kp DE_C                   &kp DE_V              &kp DE_B   &kp DE_LEFT_BRACE    &kp DE_RIGHT_BRACE  &kp DE_N   &kp DE_M               &kp DE_COMMA                 &kp DE_PERIOD              &kp DE_MINUS                      &kp RSHFT
-                                                                    &kp LEFT_GUI               &kp BACKSPACE         &mo 1      &kp SPACE            &kp RET             &mo 2      &kp BSPC               &kp RGUI
+                                                                    &kp LEFT_CONTROL           &kp BACKSPACE         &mo 1      &kp SPACE            &kp RET             &mo 2      &kp BSPC               &kp RGUI
             >;
         };
 
