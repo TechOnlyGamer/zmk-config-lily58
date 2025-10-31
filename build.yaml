@@ -51,10 +51,10 @@ include:
     snippet: studio-rpc-usb-uart
 
   - board: seeeduino_xiao_ble
-    shield: splitkb_aurora_lily58_dongle dongle_screen
+    shield: aurora_lily58_dongle dongle_screen
     cmake-args: -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000
     snippet: zmk-usb-logging
-    artifact-name: totem-dongle-screen
+    artifact-name: aurora_lily58_dongle-screen
 
   - board: seeeduino_xiao_ble
     shield: settings_reset
