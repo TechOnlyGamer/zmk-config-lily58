@@ -37,20 +37,20 @@ include:
 
   - board: nice_nano_v2
     shield: splitkb_aurora_lily58_left
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n 
     artifact-name: aurora_lily58-dongle-left
     snippet: studio-rpc-usb-uart
 
   - board: nice_nano_v2
     shield: splitkb_aurora_lily58_right
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n 
     artifact-name: aurora_lily58-dongle-right
     snippet: studio-rpc-usb-uart
 
   - board: seeeduino_xiao_ble
     shield: aurora_lily58_dongle dongle_screen
-    cmake-args: -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000
-    snippet: zmk-usb-logging
+  #  cmake-args: -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000
+  #  snippet: zmk-usb-logging
     artifact-name: aurora_lily58_dongle
 
   - board: seeeduino_xiao_ble
