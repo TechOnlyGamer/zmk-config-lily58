@@ -49,7 +49,7 @@ include:
 
   - board: seeeduino_xiao_ble
     shield: aurora_lily58_dongle
-  #  cmake-args: -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000
+    cmake-args: -DKEYMAP_FILE=../../config/splitkb_aurora_lily58.keymap -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000
   #  snippet: zmk-usb-logging
     artifact-name: aurora_lily58_dongle
 
