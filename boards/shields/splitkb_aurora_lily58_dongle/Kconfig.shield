@@ -1,0 +1,3 @@
+# No whitespace after the comma or in the keyboard name!
+config SHIELD_SPLITKB_AURORA_LILY58_DONGLE
+    def_bool $(shields_list_contains,splitkb_aurora_lily58_dongle)
