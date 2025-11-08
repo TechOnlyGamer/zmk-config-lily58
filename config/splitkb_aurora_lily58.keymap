@@ -146,6 +146,8 @@
 &kp LEFT_CONTROL  &kp DE_Y   &kp DE_X   &kp DE_C          &kp DE_V      &kp DE_B   &kp DE_LEFT_BRACE    &kp DE_RIGHT_BRACE  &kp DE_N   &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS     &kp RSHFT
                                         &kp LEFT_CONTROL  &kp LEFT_ALT  &mo 1      &kp SPACE            &kp RET             &mo 2      &kp BSPC   &kp RGUI
             >;
+
+            label = "Gaming";
         };
     };
 };
