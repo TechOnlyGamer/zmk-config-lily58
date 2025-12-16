@@ -109,11 +109,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F1    &kp F2    &kp F3    &kp F4     &kp F5     &kp F6                              &kp F7  &kp F8          &kp F9        &kp F10         &kp F11          &kp F12
-&trans    &trans    &trans    &trans     &trans     &trans                              &trans  &trans          &trans        &trans          &trans           &trans
-&trans    &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans                              &trans  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE
-&kp PIPE  &trans    &trans    &trans     &trans     &trans  &bt BT_CLR    &out OUT_TOG  &trans  &trans          &trans        &trans          &trans           &trans
-                              &trans     &trans     &trans  &trans        &trans        &trans  &trans          &trans
+&kp F1    &kp F2    &kp F3    &kp F4     &kp F5     &kp F6                               &kp F7   &kp F8          &kp F9        &kp F10         &kp F11          &kp F12
+&kp F13   &kp F14   &kp F15   &kp F16    &kp F17    &kp F18                              &kp F19  &kp F20         &kp F21       &kp F22         &kp F23          &kp F24
+&trans    &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans                               &trans   &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE
+&kp PIPE  &trans    &trans    &trans     &trans     &trans   &bt BT_CLR    &out OUT_TOG  &trans   &trans          &trans        &trans          &trans           &trans
+                              &trans     &trans     &trans   &trans        &trans        &trans   &trans          &trans
             >;
 
             label = "Function";
@@ -140,11 +140,11 @@
 
         Gaming {
             bindings = <
-&kp ESC           &kp DE_N1  &kp DE_N2  &kp DE_N3         &kp DE_N4     &kp DE_N5                                           &kp DE_N6  &kp DE_N7  &kp DE_N8     &kp DE_N9      &kp DE_N0        &kp DE_SZ
-&kp TAB           &kp DE_Q   &kp DE_W   &kp DE_E          &kp DE_R      &kp DE_T                                            &kp DE_Z   &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P         &kp DE_PLUS
-&kp LEFT_SHIFT    &kp DE_A   &kp DE_S   &kp DE_D          &kp DE_F      &kp DE_G                                            &kp DE_H   &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_O_UMLAUT  &kp DE_HASH
-&kp LEFT_CONTROL  &kp DE_Y   &kp DE_X   &kp DE_C          &kp DE_V      &kp DE_B   &kp DE_LEFT_BRACE    &kp DE_RIGHT_BRACE  &kp DE_N   &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS     &kp RSHFT
-                                        &kp LEFT_CONTROL  &kp LEFT_ALT  &mo 1      &kp SPACE            &kp RET             &mo 2      &kp BSPC   &kp RGUI
+&kp ESC         &kp DE_N1  &kp DE_N2  &kp DE_N3     &kp DE_N4         &kp DE_N5                                           &kp DE_N6  &kp DE_N7  &kp DE_N8     &kp DE_N9      &kp DE_N0        &kp DE_SZ
+&kp TAB         &kp DE_Q   &kp DE_W   &kp DE_E      &kp DE_R          &kp DE_T                                            &kp DE_Z   &kp DE_U   &kp DE_I      &kp DE_O       &kp DE_P         &kp DE_PLUS
+&trans          &kp DE_A   &kp DE_S   &kp DE_D      &kp DE_F          &kp DE_G                                            &kp DE_H   &kp DE_J   &kp DE_K      &kp DE_L       &kp DE_O_UMLAUT  &kp DE_HASH
+&kp LEFT_SHIFT  &kp DE_Y   &kp DE_X   &kp DE_C      &kp DE_V          &kp DE_B   &kp DE_LEFT_BRACE    &kp DE_RIGHT_BRACE  &kp DE_N   &kp DE_M   &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS     &kp RSHFT
+                                      &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 1      &kp SPACE            &kp RET             &mo 2      &kp BSPC   &kp RGUI
             >;
 
             label = "Gaming";
