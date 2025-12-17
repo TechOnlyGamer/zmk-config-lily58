@@ -61,13 +61,7 @@ include:
     shield: settings_reset
 
   - board: nice_nano_v2
-    shield: corne_left nice_view_adapter
-    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
-    artifact-name: corne_left
+    shield: corne_left
     snippet: studio-rpc-usb-uart
-
   - board: nice_nano_v2
-    shield: corne_right nice_view_adapter
-    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
-    artifact-name: corne_right
-    snippet: studio-rpc-usb-uart
+    shield: corne_right
